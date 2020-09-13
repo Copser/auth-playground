@@ -29,7 +29,7 @@ config :phoenix, :json_library, Jason
 # TODO: Add API key later
 config :auth, Auth.Mailer,
   adapter: Swoosh.Adapters.Postmark,
-  api_key: "4ac46e9c-2f37-44e7-a0f2-2bbf479cc947"
+  api_key: ""
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
